@@ -58,6 +58,13 @@ Kirigami.ApplicationWindow {
         id: contextDrawer
     }
 
+    Kirigami.PromptDialog {
+        id: alert
+        title: i18n("Attention!")
+        subtitle: i18n("Fill in all 3 fields!")
+        standardButtons: Kirigami.Dialog.Ok
+    }
+
     pageStack.initialPage: page
 
    Kirigami.ScrollablePage {
@@ -75,31 +82,31 @@ Kirigami.ApplicationWindow {
 
             Controls.TextField {
                 id: weight
-                placeholderText: "Вес в килограммах"
+                placeholderText: i18n("Weight in kilograms")
                 inputMethodHints: Qt.ImhDigitsOnly
-                Kirigami.FormData.label: "Вес:"
+                Kirigami.FormData.label: i18n("Weight:")
             }
             Controls.TextField {
                 id: height
-                placeholderText: "Рост в сантиметрах"
+                placeholderText: i18n("Height in centimeters")
                 inputMethodHints: Qt.ImhDigitsOnly
-                Kirigami.FormData.label: "Рост:"
+                Kirigami.FormData.label: i18n("Height:")
             }
             Controls.TextField {
                 id: circle
-                placeholderText: "Окружность запястья в сантиметрах"
+                placeholderText: i18n("Wrist circumference in centimeters")
                 inputMethodHints: Qt.ImhDigitsOnly
-                Kirigami.FormData.label: "Окружность запястья:"
+                Kirigami.FormData.label: i18n("Wrist circumference:")
             }
 
             Controls.ComboBox {
                 id: combo
-                model: ["мужской","женский"]
-                Kirigami.FormData.label: "Пол:"
+                model: [i18n("Male"), i18n("Female")]
+                Kirigami.FormData.label: i18n("Sex:")
             }
 
             Controls.Button {
-                text: "Вычислить"
+                text: i18n("Calculate")
                 onClicked: showResult()
             }
 
@@ -114,13 +121,6 @@ Kirigami.ApplicationWindow {
            }
         }
      }
-
-     Kirigami.PromptDialog {
-        id: alert
-        title: "Внимание!"
-        subtitle: "Заполните все 3 поля!"
-        standardButtons: Kirigami.Dialog.Ok
-    }
   }
 
 
