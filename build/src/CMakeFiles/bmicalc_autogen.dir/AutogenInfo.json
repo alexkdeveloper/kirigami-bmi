@@ -1,0 +1,137 @@
+{
+	"BUILD_DIR" : "/home/alex/Projects/bmicalc/build/src/bmicalc_autogen",
+	"CMAKE_BINARY_DIR" : "/home/alex/Projects/bmicalc/build",
+	"CMAKE_CURRENT_BINARY_DIR" : "/home/alex/Projects/bmicalc/build/src",
+	"CMAKE_CURRENT_SOURCE_DIR" : "/home/alex/Projects/bmicalc/src",
+	"CMAKE_EXECUTABLE" : "/app/bin/cmake",
+	"CMAKE_LIST_FILES" : 
+	[
+		"/home/alex/Projects/bmicalc/src/CMakeLists.txt",
+		"/home/alex/Projects/bmicalc/src/bmicalcconfig.kcfgc",
+		"/home/alex/Projects/bmicalc/src/resources.qrc"
+	],
+	"CMAKE_SOURCE_DIR" : "/home/alex/Projects/bmicalc",
+	"DEP_FILE" : "/home/alex/Projects/bmicalc/build/src/bmicalc_autogen/deps",
+	"DEP_FILE_RULE_NAME" : "bmicalc_autogen/timestamp",
+	"HEADERS" : 
+	[
+		[
+			"/home/alex/Projects/bmicalc/src/about.h",
+			"Mu",
+			"EWIEGA46WW/moc_about.cpp",
+			null
+		],
+		[
+			"/home/alex/Projects/bmicalc/src/app.h",
+			"Mu",
+			"EWIEGA46WW/moc_app.cpp",
+			null
+		]
+	],
+	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
+	"INCLUDE_DIR" : "/home/alex/Projects/bmicalc/build/src/bmicalc_autogen/include",
+	"MOC_COMPILATION_FILE" : "/home/alex/Projects/bmicalc/build/src/bmicalc_autogen/mocs_compilation.cpp",
+	"MOC_DEFINITIONS" : 
+	[
+		"KCOREADDONS_LIB",
+		"QT_CORE_LIB",
+		"QT_GUI_LIB",
+		"QT_NETWORK_LIB",
+		"QT_QMLMODELS_LIB",
+		"QT_QML_LIB",
+		"QT_QUICKCONTROLS2_LIB",
+		"QT_QUICK_LIB",
+		"QT_SVG_LIB",
+		"QT_WIDGETS_LIB",
+		"QT_XML_LIB",
+		"_GNU_SOURCE",
+		"_LARGEFILE64_SOURCE"
+	],
+	"MOC_DEPEND_FILTERS" : 
+	[
+		[
+			"Q_PLUGIN_METADATA",
+			"[\n][ \t]*Q_PLUGIN_METADATA[ \t]*\\([^\\)]*FILE[ \t]*\"([^\"]+)\""
+		],
+		[
+			"K_PLUGIN_FACTORY_WITH_JSON",
+			"[\n^][ \t]*K_PLUGIN_FACTORY_WITH_JSON[ \t\n]*\\([^,]*,[ \t\n]*\"([^\"]+)\""
+		],
+		[
+			"K_PLUGIN_CLASS_WITH_JSON",
+			"[\n^][ \t]*K_PLUGIN_CLASS_WITH_JSON[ \t\n]*\\([^,]*,[ \t\n]*\"([^\"]+)\""
+		]
+	],
+	"MOC_INCLUDES" : 
+	[
+		"/home/alex/Projects/bmicalc/build/src",
+		"/home/alex/Projects/bmicalc/src",
+		"/usr/include/QtCore",
+		"/usr/lib/mkspecs/linux-g++",
+		"/usr/include/QtGui",
+		"/usr/include/QtQml",
+		"/usr/include/QtNetwork",
+		"/usr/include/QtQuick",
+		"/usr/include/QtQmlModels",
+		"/usr/include/QtQuickControls2",
+		"/usr/include/QtSvg",
+		"/usr/include/QtWidgets",
+		"/usr/include/KF5/KI18n",
+		"/usr/include/KF5",
+		"/usr/include/KF5/KCoreAddons",
+		"/usr/include/KF5/KConfig",
+		"/usr/include/KF5/KConfigCore",
+		"/usr/include/KF5/KConfigGui",
+		"/usr/include/QtXml",
+		"/usr/include",
+		"/usr/include/c++/12.2.0",
+		"/usr/include/c++/12.2.0/x86_64-unknown-linux-gnu",
+		"/usr/include/c++/12.2.0/backward",
+		"/usr/lib/gcc/x86_64-unknown-linux-gnu/12.2.0/include",
+		"/usr/lib/gcc/x86_64-unknown-linux-gnu/12.2.0/include-fixed",
+		"/usr/include/x86_64-linux-gnu"
+	],
+	"MOC_MACRO_NAMES" : 
+	[
+		"Q_OBJECT",
+		"Q_GADGET",
+		"Q_NAMESPACE",
+		"Q_NAMESPACE_EXPORT",
+		"K_PLUGIN_FACTORY",
+		"K_PLUGIN_CLASS",
+		"K_PLUGIN_FACTORY_WITH_JSON",
+		"K_PLUGIN_CLASS_WITH_JSON"
+	],
+	"MOC_OPTIONS" : [],
+	"MOC_PATH_PREFIX" : false,
+	"MOC_PREDEFS_CMD" : 
+	[
+		"/usr/bin/c++",
+		"-dM",
+		"-E",
+		"-c",
+		"/app/share/cmake-3.26/Modules/CMakeCXXCompilerABI.cpp"
+	],
+	"MOC_PREDEFS_FILE" : "/home/alex/Projects/bmicalc/build/src/bmicalc_autogen/moc_predefs.h",
+	"MOC_RELAXED_MODE" : false,
+	"MOC_SKIP" : 
+	[
+		"/home/alex/Projects/bmicalc/build/src/bmicalcconfig.cpp",
+		"/home/alex/Projects/bmicalc/build/src/bmicalcconfig.h"
+	],
+	"MULTI_CONFIG" : false,
+	"PARALLEL" : 2,
+	"PARSE_CACHE_FILE" : "/home/alex/Projects/bmicalc/build/src/CMakeFiles/bmicalc_autogen.dir/ParseCache.txt",
+	"QT_MOC_EXECUTABLE" : "/usr/bin/moc",
+	"QT_UIC_EXECUTABLE" : "",
+	"QT_VERSION_MAJOR" : 5,
+	"QT_VERSION_MINOR" : 15,
+	"SETTINGS_FILE" : "/home/alex/Projects/bmicalc/build/src/CMakeFiles/bmicalc_autogen.dir/AutogenUsed.txt",
+	"SOURCES" : 
+	[
+		[ "/home/alex/Projects/bmicalc/src/about.cpp", "Mu", null ],
+		[ "/home/alex/Projects/bmicalc/src/app.cpp", "Mu", null ],
+		[ "/home/alex/Projects/bmicalc/src/main.cpp", "Mu", null ]
+	],
+	"VERBOSITY" : 0
+}
