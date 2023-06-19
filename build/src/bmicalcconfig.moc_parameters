@@ -1,7 +1,0 @@
--I/home/alex/Projects/bmicalc/src
--I/home/alex/Projects/bmicalc/build/src
--D_GNU_SOURCE
--D_LARGEFILE64_SOURCE
--o
-/home/alex/Projects/bmicalc/build/src/bmicalcconfig.moc
-/home/alex/Projects/bmicalc/build/src/bmicalcconfig.h
