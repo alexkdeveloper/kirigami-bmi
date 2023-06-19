@@ -40,7 +40,7 @@ Q_DECL_EXPORT int main(int argc, char *argv[])
     aboutData.addAuthor(i18nc("@info:credit", "Alex K"),
                         i18nc("@info:credit", "Developer"),
                         QStringLiteral("unknown"),
-                        QStringLiteral("https://github.com/alexkdeveloper"));
+                        QStringLiteral("https://github.com/alexkdeveloper/kirigami-bmi"));
     KAboutData::setApplicationData(aboutData);
 
     QQmlApplicationEngine engine;
