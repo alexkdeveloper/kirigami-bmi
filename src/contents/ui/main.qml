@@ -42,7 +42,7 @@ Kirigami.ApplicationWindow {
         isMenu: !root.isMobile
         actions: [
             Kirigami.Action {
-                text: i18n("About bmicalc")
+                text: i18n("About BMI Calculator")
                 icon.name: "help-about"
                 onTriggered: pageStack.layers.push('qrc:About.qml')
             },
