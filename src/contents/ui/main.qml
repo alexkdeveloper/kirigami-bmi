@@ -34,8 +34,6 @@ Kirigami.ApplicationWindow {
         onTriggered: App.saveWindowGeometry(root)
     }
 
-    property int counter: 0
-
     globalDrawer: Kirigami.GlobalDrawer {
         title: i18n("bmicalc")
         titleIcon: "applications-graphics"
