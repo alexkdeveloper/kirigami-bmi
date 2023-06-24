@@ -183,11 +183,11 @@ Kirigami.ApplicationWindow {
      }
   function  normalMassMin(x,y,z){
         var im=x*(y*y)/z;
-        return "Lower limit of normal weight: "+20*im.toFixed(2)+" kg.";
+        return "Lower limit of normal weight:\n"+20*im.toFixed(2)+" kg.";
     }
     function normalMassMax(x,y,z){
         var im=x*(y*y)/z;
-        return "Upper limit of normal weight: "+25*im.toFixed(2)+" kg.";
+        return "Upper limit of normal weight:\n"+25*im.toFixed(2)+" kg.";
     }
     function  somatoType(a,b){
         var s="";
