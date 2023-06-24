@@ -78,23 +78,44 @@ Kirigami.ApplicationWindow {
 
             width: page.width
 
-            Controls.TextField {
+            Kirigami.ActionTextField {
                 id: weight
                 placeholderText: i18n("Weight in kilograms")
-                inputMethodHints: Qt.ImhDigitsOnly
+                inputMethodHints: Qt.ImhFormattedNumbersOnly
                 Kirigami.FormData.label: i18n("Weight:")
+                rightActions: Kirigami.Action {
+                icon.name: "edit-clear"
+                visible: weight.text !== ""
+                onTriggered: {
+                    weight.clear();
+               }
+              }
             }
-            Controls.TextField {
+            Kirigami.ActionTextField {
                 id: height
                 placeholderText: i18n("Height in centimeters")
-                inputMethodHints: Qt.ImhDigitsOnly
+                inputMethodHints: Qt.ImhFormattedNumbersOnly
                 Kirigami.FormData.label: i18n("Height:")
+                rightActions: Kirigami.Action {
+                icon.name: "edit-clear"
+                visible: height.text !== ""
+                onTriggered: {
+                    height.clear();
+               }
+              }
             }
-            Controls.TextField {
+            Kirigami.ActionTextField {
                 id: circle
                 placeholderText: i18n("Wrist circumference in centimeters")
-                inputMethodHints: Qt.ImhDigitsOnly
+                inputMethodHints: Qt.ImhFormattedNumbersOnly
                 Kirigami.FormData.label: i18n("Wrist circumference:")
+                rightActions: Kirigami.Action {
+                icon.name: "edit-clear"
+                visible: circle.text !== ""
+                onTriggered: {
+                    circle.clear();
+               }
+              }
             }
 
             Controls.ComboBox {
@@ -128,7 +149,7 @@ Kirigami.ApplicationWindow {
     var w=Number(weight.text);
     var c=Number(circle.text);
     if (isNullInField(height.text)||isNullInField(weight.text)||isNullInField(circle.text)){
-        alert.visible = true
+        alert.open()
         return;
     }
     var gen,index,s;
