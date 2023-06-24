@@ -80,7 +80,7 @@ Kirigami.ApplicationWindow {
 
             Kirigami.ActionTextField {
                 id: weight
-                placeholderText: i18n("Weight in kilograms")
+                placeholderText: i18n("Weight in kg")
                 inputMethodHints: Qt.ImhFormattedNumbersOnly
                 Kirigami.FormData.label: i18n("Weight:")
                 rightActions: Kirigami.Action {
@@ -93,7 +93,7 @@ Kirigami.ApplicationWindow {
             }
             Kirigami.ActionTextField {
                 id: height
-                placeholderText: i18n("Height in centimeters")
+                placeholderText: i18n("Height in cm")
                 inputMethodHints: Qt.ImhFormattedNumbersOnly
                 Kirigami.FormData.label: i18n("Height:")
                 rightActions: Kirigami.Action {
@@ -106,7 +106,7 @@ Kirigami.ApplicationWindow {
             }
             Kirigami.ActionTextField {
                 id: circle
-                placeholderText: i18n("Wrist circumference in centimeters")
+                placeholderText: i18n("Wrist circumference in cm")
                 inputMethodHints: Qt.ImhFormattedNumbersOnly
                 Kirigami.FormData.label: i18n("Wrist circumference:")
                 rightActions: Kirigami.Action {
